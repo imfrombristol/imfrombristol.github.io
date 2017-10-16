@@ -60,7 +60,7 @@ a {
 .menu_item {
   display: inline-block;
   font-size: 35px;
-  font-family: 'Olietta script BoldItalic', arial;
+  font-family: 'Oliettascript BoldItalic', arial;
   z-index: 10; }
 
 .menu_item:hover {
