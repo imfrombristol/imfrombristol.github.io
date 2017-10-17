@@ -8,6 +8,9 @@ html, body {
 html {
   background-color: black; }
 
+body {
+  overflow: hidden; }
+
 ul {
   padding: 0;
   margin: 0; }
@@ -22,9 +25,12 @@ a {
   height: 100%;
   overflow: hidden; }
 
+.wrapper_2 {
+  padding: 2em 5em; }
+
 .container {
   margin: 0 auto;
-  padding: 2em 5em; }
+  padding: 1em 5em; }
 
 .clearfix::after {
   content: "";
@@ -42,11 +48,26 @@ a {
 .sticky {
   background-color: black;
   height: 40px;
-  transition: all 0.4s ease; }
+  transition: all 0.4s ease;
+  overflow: hidden; }
 
 .sticky_text {
   font-size: 30px;
   transition: all 0.4s ease; }
+
+.home_logo {
+  height: 90px;
+  position: absolute;
+  left: 50%;
+  top: -15px;
+  opacity: 0;
+  margin-left: -10%; }
+
+.home_logo-sticky {
+  height: 80px;
+  opacity: 1;
+  margin-left: -10%;
+  transition: all 0.1s ease-in; }
 
 .menu {
   position: relative;
@@ -104,8 +125,30 @@ a {
   font-size: 30px;
   letter-spacing: 5px; }
 
+.content {
+  height: 100vh;
+  width: auto;
+  background-color: white;
+  position: relative; }
+
+.content .last {
+  height: 40%; }
+
+.textblock {
+  width: 50vh; }
+
+.text__descript {
+  text-align: justify;
+  font-weight: 100; }
+
+.hidden {
+  display: none;
+  transition: all 0.4s ease; }
+
 .footer {
   background-color: black;
   color: white;
   height: 100px;
-  width: 100%; }
+  width: 100%;
+  position: absolute;
+  bottom: 0; }
