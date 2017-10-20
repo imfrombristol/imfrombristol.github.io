@@ -42,6 +42,7 @@ body, html {
 .parallax-pic {
     position: absolute;
     bottom: 0;
+    width: 100%;
 }
 
 .css-adaptive {
