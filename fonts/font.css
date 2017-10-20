@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  @font-face{
  	font-family: "Olietta-Script";
  	src: url(Oliettascript.ttf) format("truetype");
@@ -5,4 +6,7 @@
  	font-weight: normal;
  	} 
  	
+=======
+ @import url('http://allfont.ru/allfont.css?fonts=olietta-script-bolditalic');
+>>>>>>> 9333aaa47cc3c3875dc7ca389c962339e3aae603
  @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');

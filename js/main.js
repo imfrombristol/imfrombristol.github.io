@@ -12,6 +12,19 @@ $(document).ready(function () {
 	$(window).scroll(function() {
 		if ($(this).scrollTop() > 1) {
 			$('img.home_logo').addClass('home_logo-sticky');
+<<<<<<< HEAD
+=======
+		}
+		else {
+			$('img.home_logo').removeClass('home_logo-sticky');
+		}
+	});
+
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > 1) {
+			$('.menu-link').addClass('sticky_text')
+			$('.menu-link').css('line-height', '15px');
+>>>>>>> 9333aaa47cc3c3875dc7ca389c962339e3aae603
 		}
 		else {
 			$('img.home_logo').removeClass('home_logo-sticky');

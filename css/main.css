@@ -63,6 +63,20 @@ a {
   padding-left: 3em;
   transition: all 0.5s ease-in; }
 
+.home_logo {
+  height: 90px;
+  position: absolute;
+  left: 50%;
+  top: -15px;
+  opacity: 0;
+  margin-left: -10%; }
+
+.home_logo-sticky {
+  height: 80px;
+  opacity: 1;
+  margin-left: -10%;
+  transition: all 0.1s ease-in; }
+
 .menu {
   position: relative;
   float: right;
@@ -137,8 +151,12 @@ a {
 .content {
   height: 100vh;
   width: auto;
+<<<<<<< HEAD
   background-image: url(../img/bg_section.jpg);
   background-size: cover;
+=======
+  background-color: white;
+>>>>>>> 9333aaa47cc3c3875dc7ca389c962339e3aae603
   position: relative; }
 
 .content .last {
