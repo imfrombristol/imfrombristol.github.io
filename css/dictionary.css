@@ -1,0 +1,146 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto Slab", arial; }
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+ul, li {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  font-family: "ArtemisDeco", arial; }
+
+.container {
+  padding: 1em 3em 0em 3em;
+  width: 950px;
+  margin: 0 auto; }
+
+.logo {
+  display: inline-block;
+  float: left;
+  width: 150px;
+  height: 100px;
+  background-image: url("../img/logo_black.png");
+  background-size: cover; }
+  .logo:hover {
+    transform: scale(0.9);
+    transition: all 0.4s ease; }
+
+.menu_nav {
+  font-family: "Olietta-Script", arial;
+  border-bottom: 1px solid #808080; }
+
+.menu {
+  display: inline-block;
+  float: right; }
+  .menu > .menu__item {
+    display: inline-block; }
+
+.menu__item {
+  font-size: 40px;
+  margin-left: 1em;
+  height: 67px;
+  line-height: 55px; }
+  .menu__item:after {
+    content: ' /'; }
+
+.menu__item:hover {
+  transition: all 0.4s ease;
+  box-shadow: inset 0px -3px 0px 0px black; }
+
+.header__tittle {
+  border-bottom: 1px solid #808080;
+  text-transform: uppercase;
+  font-size: 80px;
+  text-align: center; }
+  .header__tittle > p {
+    padding: 40px 0;
+    display: inline-block;
+    margin: 0; }
+
+.content__wrapper {
+  width: auto;
+  text-align: center;
+  padding: 7em 3em;
+  border-bottom: 1px solid gray; }
+
+.content_img {
+  display: inline-block;
+  width: 850px;
+  height: 405px;
+  background-image: url("../img/waterfall.jpg");
+  background-size: cover; }
+
+.content__info {
+  margin-top: 1em;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between; }
+
+.content_text {
+  display: block;
+  text-align: justify;
+  margin: 0 1em; }
+  .content_text > h3 {
+    font-family: "ArtemisDeco", arial;
+    font-weight: normal;
+    font-size: 45px;
+    color: gray;
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+
+.footer__nav {
+  padding: 1em 2em;
+  display: inline-block;
+  width: 95%; }
+
+.logo__ik {
+  display: inline-block;
+  float: left;
+  font-size: 33px; }
+
+.nav {
+  display: inline-block;
+  float: right; }
+
+.nav__item {
+  height: 38px;
+  display: inline-block; }
+
+.nav__item:hover {
+  transition: all 0.4s ease;
+  box-shadow: inset 0px -3px 0px 0px black; }
+
+.nav-link {
+  font-size: 25px; }
+  .nav-link:after {
+    content: ' /'; }
+
+.footer {
+  font-family: "Olietta-Script", arial;
+  height: 100px; }
+
+@font-face {
+  font-family: "Olietta-Script";
+  src: url(../fonts/Oliettascript.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "ArtemisDeco";
+  src: url(../fonts/ArtemisDeco.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal; }

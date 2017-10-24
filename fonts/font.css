@@ -4,5 +4,12 @@
  	font-style: normal;
  	font-weight: normal;
  	} 
- 	
+
+ @font-face{
+ 	font-family: "ArtemisDeco";
+ 	src: url(ArtemisDeco.ttf) format("truetype");
+ 	font-style: normal;
+ 	font-weight: normal;
+ 	}
+
  @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');

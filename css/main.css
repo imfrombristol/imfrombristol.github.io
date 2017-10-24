@@ -56,12 +56,15 @@ a {
   left: 0;
   top: -15px;
   opacity: 0; }
+  .home_logo:hover {
+    transform: scale(0.9);
+    transition: all 0.2s ease; }
 
 .home_logo-sticky {
   height: 80px;
   opacity: 1;
   padding-left: 3em;
-  transition: all 0.5s ease-in; }
+  transition: all 0.2s ease; }
 
 .menu {
   position: relative;
