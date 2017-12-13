@@ -9,7 +9,7 @@ body,html
     clear: both
 a
 	text-decoration: none
-	color: black
+	// color: black
 
 ul,li 
 	margin: 0
@@ -48,6 +48,10 @@ ul,li
 	line-height: 55px
 	&:after
 		content: ' /'
+.menu__item
+	>a
+		text-decoration: none
+		color: black
 .menu__item:hover
 	transition: all 0.4s ease
 	box-shadow: inset 0px -3px 0px 0px rgba(0, 0, 0, 1)
@@ -62,14 +66,17 @@ ul,li
 		padding: 40px 0
 		display: inline-block
 		margin: 0
+		font-size: 60px
 
 .content__wrapper
 	width: auto
 	text-align: center
-	display: flex
+	display: block
 	justify-content: space-between
-	padding: 7em 0 15em 0
+	padding: 1em 0 5em 0
 	border-bottom: 1px solid gray
+	>p
+		text-align: left
 
 .content__block
 	display: inline-block
@@ -88,20 +95,28 @@ ul,li
 			background-color: rgba(0, 0, 0, .6)
 			font-size: 45px
 			transition: all 0.4s ease
-.block1
-	background-image: url("../img/block1.jpg")
-	background-size: cover
+.art_tittle
+	display: inline-block
+	width: 100%
+	text-transform: uppercase
+	text-align: center
+	font-size: 30px
+
+.art_list_tit
+	text-align: left
+	font-size: 20px
+	list-style: none
 	
-	
-.block2
-	background-image: url("../img/block2.jpg")
-	background-size: cover
-.block3
-	background-image: url("../img/block3.jpg")
-	background-size: cover
-	>p
-		>a
-			color: white
+.art_list_tit_text
+	text-align: left
+	font-size: 16px
+	list-style: none
+.ist
+	text-align: left
+	font-weight: light
+	font-size: 14px
+	color: grey
+
 .footer__nav
 	padding: 1em 2em
 	display: inline-block
@@ -128,6 +143,18 @@ ul,li
 	font-size: 25px
 	&:after
 		content: ' /'
+
+.art_list_tit
+	margin-top: 15px
+	margin-bottom: 5px
+
+.list_tit_cont
+	text-align: left
+	list-style: decimal
+	margin: 0 0 0 15px
+
+.list_cont
+	text-align: left
 
 
 .footer

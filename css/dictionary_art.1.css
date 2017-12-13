@@ -9,16 +9,27 @@ body, html {
   clear: both; }
 
 a {
-  text-decoration: none;
-  color: black; }
+  text-decoration: none; }
 
 .dic_item {
   margin-bottom: 10px; }
   .dic_item > a {
-    text-decoration: underline;
-    color: blue; }
-    .dic_item > a:hover {
-      color: hotpink; }
+    text-decoration: underline; }
+
+.art {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px; }
+
+.ist {
+  text-align: left;
+  font-weight: light;
+  font-size: 14px;
+  color: grey; }
+
+.img_art {
+  width: 950px;
+  height: auto; }
 
 ul, li {
   margin: 0;
@@ -77,8 +88,7 @@ ul, li {
 
 .content__wrapper {
   width: auto;
-  text-align: center;
-  padding: 7em 3em;
+  padding: 4em 1em;
   border-bottom: 1px solid gray; }
 
 .content_img {

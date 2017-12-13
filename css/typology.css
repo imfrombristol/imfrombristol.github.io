@@ -9,16 +9,7 @@ body, html {
   clear: both; }
 
 a {
-  text-decoration: none;
-  color: black; }
-
-.dic_item {
-  margin-bottom: 10px; }
-  .dic_item > a {
-    text-decoration: underline;
-    color: blue; }
-    .dic_item > a:hover {
-      color: hotpink; }
+  text-decoration: none; }
 
 ul, li {
   margin: 0;
@@ -61,6 +52,10 @@ ul, li {
   .menu__item:after {
     content: ' /'; }
 
+.menu__item > a {
+  text-decoration: none;
+  color: black; }
+
 .menu__item:hover {
   transition: all 0.4s ease;
   box-shadow: inset 0px -3px 0px 0px black; }
@@ -73,42 +68,58 @@ ul, li {
   .header__tittle > p {
     padding: 40px 0;
     display: inline-block;
-    margin: 0; }
+    margin: 0;
+    font-size: 60px; }
 
 .content__wrapper {
   width: auto;
   text-align: center;
-  padding: 7em 3em;
-  border-bottom: 1px solid gray; }
-
-.content_img {
-  display: inline-block;
-  width: 850px;
-  height: 405px;
-  background-image: url("../img/waterfall.jpg");
-  background-size: cover; }
-
-.content__info {
-  margin-top: 3em;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-  justify-content: space-between; }
-
-.content_text {
   display: block;
-  text-align: justify;
-  margin: 0 1em; }
-  .content_text > h3 {
+  justify-content: space-between;
+  padding: 1em 0 5em 0;
+  border-bottom: 1px solid gray; }
+  .content__wrapper > p {
+    text-align: left; }
+
+.content__block {
+  display: inline-block;
+  width: 300px;
+  height: 300px; }
+  .content__block > p {
     font-family: "ArtemisDeco", arial;
-    font-weight: normal;
-    font-size: 45px;
-    color: gray;
-    margin: 0;
+    color: white;
+    font-size: 35px;
+    line-height: 300px;
     padding: 0;
-    text-align: center; }
+    margin: 0;
+    transition: all 0.4s ease; }
+    .content__block > p:hover {
+      background-color: rgba(0, 0, 0, 0.6);
+      font-size: 45px;
+      transition: all 0.4s ease; }
+
+.art_tittle {
+  display: inline-block;
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px; }
+
+.art_list_tit {
+  text-align: left;
+  font-size: 20px;
+  list-style: none; }
+
+.art_list_tit_text {
+  text-align: left;
+  font-size: 16px;
+  list-style: none; }
+
+.ist {
+  text-align: left;
+  font-weight: light;
+  font-size: 14px;
+  color: grey; }
 
 .footer__nav {
   padding: 1em 2em;
@@ -136,6 +147,18 @@ ul, li {
   font-size: 25px; }
   .nav-link:after {
     content: ' /'; }
+
+.art_list_tit {
+  margin-top: 15px;
+  margin-bottom: 5px; }
+
+.list_tit_cont {
+  text-align: left;
+  list-style: decimal;
+  margin: 0 0 0 15px; }
+
+.list_cont {
+  text-align: left; }
 
 .footer {
   font-family: "Olietta-Script", arial;

@@ -103,6 +103,8 @@ ul, li {
 .block3 {
   background-image: url("../img/block3.jpg");
   background-size: cover; }
+  .block3 > p > a {
+    color: white; }
 
 .footer__nav {
   padding: 1em 2em;

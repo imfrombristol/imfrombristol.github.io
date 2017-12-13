@@ -9,7 +9,26 @@ body,html
     clear: both
 a
 	text-decoration: none
-	color: black
+	// color: black
+
+.dic_item
+	margin-bottom: 10px
+	>a
+		text-decoration: underline
+		
+.art
+	text-align: center
+	font-weight: bold
+	font-size: 20px
+.ist
+	text-align: left
+	font-weight: light
+	font-size: 14px
+	color: grey
+
+.img_art
+	width: 950px
+	height: auto
 
 ul,li 
 	margin: 0
@@ -65,43 +84,38 @@ ul,li
 
 .content__wrapper
 	width: auto
-	text-align: center
-	display: flex
-	justify-content: space-between
-	padding: 7em 0 15em 0
+	
+	padding: 4em 1em  
 	border-bottom: 1px solid gray
 
-.content__block
+.content_img
 	display: inline-block
-	width: 300px
-	height: 300px
-
-	>p
+	width: 850px
+	height: 405px
+	background-image: url("../img/waterfall.jpg")
+	background-size: cover
+.content__info
+	margin-top: 3em
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	justify-content: space-between
+.content_text
+	display: block
+	text-align: justify
+	margin: 0 1em
+	>h3 
 		font-family: "ArtemisDeco", arial
-		color: white
-		font-size: 35px
-		line-height: 300px
-		padding: 0
+		font-weight: normal
+		font-size: 45px
+		color: gray
 		margin: 0
-		transition: all 0.4s ease
-		&:hover
-			background-color: rgba(0, 0, 0, .6)
-			font-size: 45px
-			transition: all 0.4s ease
-.block1
-	background-image: url("../img/block1.jpg")
-	background-size: cover
-	
-	
-.block2
-	background-image: url("../img/block2.jpg")
-	background-size: cover
-.block3
-	background-image: url("../img/block3.jpg")
-	background-size: cover
-	>p
-		>a
-			color: white
+		padding: 0
+		text-align: center
+
+
 .footer__nav
 	padding: 1em 2em
 	display: inline-block
